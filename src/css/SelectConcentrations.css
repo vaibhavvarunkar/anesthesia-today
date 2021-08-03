@@ -1,0 +1,85 @@
+.select-concentration-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.select-concentration-header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  height: 50px;
+  background-color: navy;
+  color: white;
+  padding-left: 2%;
+}
+
+.next-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  background-color: blue;
+  color: white;
+  margin: 0.5rem;
+}
+
+.next-button-container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.next-button-1 {
+  position: fixed;
+  left: 10rem;
+  bottom: 2rem;
+  align-self: flex-end;
+  width: 80px;
+  cursor: pointer;
+  height: 40px;
+  display: flex;
+  color: black;
+  align-items: center;
+  justify-content: center;
+  background-color: gainsboro;
+  border-radius: 50%;
+  padding: 2.5rem 0;
+  zoom: 1;
+}
+
+.next-button-container-1 {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.selected-concentrations-list-main-container {
+  background-color: skyblue;
+  width: 100%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.selected-concentrations-list {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.input-for-concentration {
+  width: 100px;
+  height: 50%;
+  background-color: white;
+  border: none;
+}

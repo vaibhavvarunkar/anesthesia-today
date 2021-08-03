@@ -1,0 +1,390 @@
+.airway-main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 2%;
+}
+
+.airway-question-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.Airway-Equipment-header-container {
+  align-self: center;
+  width: 100%;
+  border-radius: 15px;
+  background-color: #ffa000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  color: white;
+}
+
+.Airway-Equipment-input-container {
+  align-self: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.Airway-Equipment-input-container-subcontainer {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  align-self: center;
+  margin: 1rem 0;
+}
+
+.mask-type-button {
+  cursor: pointer;
+  background-color: skyblue;
+  width: 150px;
+  height: 50px;
+  border: 1px solid #3f2479;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* margin-right: 20px; */
+}
+
+.btn.mask-selected-type-button {
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  border: 1px solid #3f2479;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* margin-right: 20px; */
+  background-color: #3f2479;
+}
+
+.mask-button-group-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.LMA-button-group-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.LMA-type-button {
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  border: 1px solid #3f2479;
+  background-color: skyblue;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* margin-right: 20px; */
+}
+
+.btn.LMA-selected-type-button {
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  border: 1px solid #3f2479;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* margin-right: 20px; */
+  background-color: #3f2479;
+}
+
+.Intubation-standard-button-group-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.Intubation-standard-type-button {
+  cursor: pointer;
+  background-color: skyblue;
+  color: white;
+  width: 150px;
+  height: 50px;
+  border: 1px solid #3f2479;
+  /* color: black; */
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* margin-right: 20px; */
+}
+.btn.Intubation-standard-selected-type-button {
+  cursor: pointer;
+  width: 80px;
+  height: 50px;
+  border: 1px solid #3f2479;
+  color: white;
+  background-color: skyblue;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* margin-right: 20px; */
+  background-color: #3f2479;
+}
+.btn.Intubation-standard-type-selected-type-button {
+  cursor: pointer;
+  width: 80px;
+  background-color: skyblue;
+  color: white;
+  height: 50px;
+  border: 1px solid #3f2479;
+  /* color: black; */
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* margin-right: 20px; */
+}
+
+.Intubation-one-lung-button-group-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.btn.Intubation-one-lung-selected-type-button {
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  border: 1px solid #3f2479;
+  background-color: skyblue;
+  color: white;
+  /* color: black; */
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* margin-right: 20px; */
+}
+
+.btn.Intubation-one-lung-type-selected-type-button {
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  border: 1px solid #3f2479;
+  /* color: black; */
+  background-color: #3f2479;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* margin-right: 20px; */
+}
+.btn.Intubation-one-lung-sub-type-selected-type-button {
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  border: 1px solid #3f2479;
+  background-color: skyblue;
+  color: white;
+  /* color: black; */
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* margin-right: 20px; */
+}
+
+.Laryngoscope-button-group-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.btn.Laryngoscope-selected-type-button {
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  border: 1px solid #3f2479;
+  /* color: black; */
+  border-radius: 15px;
+  background-color: skyblue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* margin-right: 20px; */
+}
+
+.btn.Laryngoscope-type-selected-type-button {
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  border: 1px solid #3f2479;
+  /* color: black; */
+  background-color: skyblue;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* margin-right: 20px; */
+}
+.btn.Laryngoscope-sub-type-selected-type-button {
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  border: 1px solid #3f2479;
+  background-color: skyblue;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* margin-right: 20px; */
+}
+
+.Other-button-group-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.btn.Other-selected-type-button {
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  border: 1px solid #3f2479;
+  background-color: skyblue;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* margin-right: 20px; */
+}
+
+.Airway-Adjuncts-button-group-container {
+  display: flex;
+  margin: 1rem 0;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.btn.Airway-Adjuncts-selected-type-button {
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  border: 1px solid #3f2479;
+  background-color: skyblue;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* margin-right: 20px; */
+}
+
+.btn.Airway-Adjuncts-type-selected-type-button {
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  border: 1px solid #3f2479;
+  background-color: skyblue;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* margin-right: 20px; */
+}
+
+.airway-calculator-type-button {
+  cursor: pointer;
+  width: 250px;
+  height: 50px;
+  border: 1px solid #3f2479;
+  background-color: skyblue;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* margin-right: 20px; */
+}
+
+.airwayAPI {
+  position: relative;
+  right: 15rem;
+}
+
+.btn.airway-calculator-selected-type-button {
+  cursor: pointer;
+  width: 250px;
+  height: 50px;
+  border: 1px solid #3f2479;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* margin-right: 20px; */
+  background-color: #3f2479;
+}

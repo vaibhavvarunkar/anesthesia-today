@@ -1,0 +1,992 @@
+.case-summary-container {
+  margin-left: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.case1-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100px;
+  height: 100px;
+  background-color: #00695c;
+}
+.case.tab-container {
+  width: 98%;
+}
+.case1-header {
+  color: orange;
+}
+.add-icon {
+  width: 50px;
+  height: 50px;
+  background-color: orange;
+  border-radius: 25px;
+  color: white;
+  font-size: 50px;
+}
+
+.input-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.separate-input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.separate-input-subcontainer {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.Unanswered-header {
+  margin-top: 10%;
+  margin-left: 50%;
+  color: orange;
+}
+
+.favourite {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  height: 50px;
+  background-color: #00695c;
+}
+
+.favourite-tabs {
+  width: 20%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.favourite-tabs:hover {
+  color: orange;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+}
+
+.question-counter-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 80%;
+  background-color: blue;
+  height: 80px;
+}
+
+.left-icon {
+  margin-left: 20px;
+  transform: rotate(180deg);
+  color: white;
+  font-size: 50px;
+}
+
+.question-counter-container-header {
+  color: white;
+  font-size: 20px;
+}
+
+.question-container {
+  /* margin: 1rem 0; */
+  height: fit-content;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+th {
+  color: white;
+}
+td {
+  color: white;
+}
+.doseTable {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 80%;
+}
+.doseTable .row {
+  border: 1px solid orange;
+  padding: 10px;
+}
+.doseTable .row:nth-child(1) {
+  color: #fff;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  background: linear-gradient(orange, rgb(240, 205, 140));
+  border-bottom: 2px solid #3f2479;
+}
+
+.npo-question-container {
+  margin: 0 0;
+  /* height: 200vh; */
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.age-header-container {
+  /* align-self: center; */
+  width: 100%;
+  border-radius: 15px;
+  background-color: #ffa000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  color: white;
+  margin: 1rem 0;
+}
+
+.icon-left {
+  cursor: pointer;
+  font-size: 40px;
+}
+
+.icon-right {
+  cursor: pointer;
+  font-size: 40px;
+}
+
+.next-button-btn {
+  border-radius: 15px;
+  border: 2px solid white;
+  background-color: rgb(247, 176, 22);
+  padding: 0.1rem 0.1rem;
+  width: 70px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  font-size: medium;
+}
+
+.age-input-container {
+  margin: 2rem auto;
+  align-self: center;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.ingested-input-container {
+  margin: 0 auto;
+  align-self: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.ingested-type-button.btn {
+  cursor: pointer;
+  /* width: 150px; */
+  height: 40px;
+  border: 1px solid orange;
+  color: black;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5rem 0;
+}
+
+.ingested-selected-type-button.btn {
+  cursor: pointer;
+  width: 150px;
+  margin: 0.5rem 0;
+  height: 40px;
+  border: 1px solid orange;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3f2479;
+}
+.ingested-caption {
+  text-align: center;
+}
+.age-input {
+  width: 30%;
+  height: 40px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.age-type-button.btn {
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  border: 1px solid orange;
+  color: black;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.age-selected-type-button.btn {
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  border: 1px solid #3f2479;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3f2479;
+}
+
+.age-type-dropdown {
+  width: 30%;
+}
+
+.next-button-container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* .table {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 5;
+} */
+
+.next-button {
+  cursor: pointer;
+  background-color: #3f2479;
+  color: white;
+  width: 3rem;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.gender-header-container {
+  align-self: center;
+  width: 100%;
+  border-radius: 15px;
+  background-color: #ffa000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  color: white;
+}
+
+.gender-input-container {
+  margin: 1rem 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.gender-type-button.btn {
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  border: 1px solid orange;
+  color: black;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gender-selected-type-button.btn {
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  border: 1px solid #3f2479;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3f2479;
+}
+
+.gender-dropdown {
+  width: 180px;
+  margin: 0 0.5rem;
+  height: 40px;
+  font-size: 15px;
+}
+
+.patientype-header-container {
+  align-self: center;
+  width: 100%;
+  border-radius: 15px;
+  background-color: #ffa000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  color: white;
+}
+
+.patientype-input-container {
+  margin: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.patient-type-button-container {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.patient-type-button.btn {
+  /* margin: 0.5rem 0; */
+  width: 100%;
+  cursor: pointer;
+  height: 40px;
+  border: 1px solid orange;
+  color: black;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.patient-selected-type-button.btn {
+  cursor: pointer;
+  width: 100%;
+  height: 40px;
+  border: 1px solid #3f2479;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3f2479;
+}
+
+.patientype-dropdown {
+  width: 300px;
+}
+
+.height-header-container {
+  align-self: center;
+  width: 100%;
+  border-radius: 15px;
+  background-color: #ffa000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  color: white;
+}
+
+.height-input-container {
+  margin: 1rem 0;
+  align-self: center;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.height-input {
+  width: 30%;
+  height: 40px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.height-type-button.btn {
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  border: 1px solid orange;
+  color: black;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.height-selected-type-button.btn {
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  border: 1px solid #3f2479;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3f2479;
+}
+
+.height-type-dropdown {
+  width: 30%;
+}
+
+.weight-header-container {
+  align-self: center;
+  width: 100%;
+  border-radius: 15px;
+  background-color: #ffa000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  color: white;
+}
+
+.weight-input-container {
+  margin: 1rem 0;
+  align-self: center;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.weight-input {
+  width: 30%;
+  height: 40px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.weight-type-button.btn {
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  border: 1px solid orange;
+  color: black;
+  border-radius: 15px;
+  display: flex;
+  /* margin: 0.5rem; */
+  align-items: center;
+  justify-content: center;
+}
+
+.weight-selected-type-button.btn {
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  border: 1px solid #3f2479;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3f2479;
+}
+
+.weight-type-dropdown {
+  width: 30%;
+}
+
+.ASA-PS-header-container {
+  align-self: center;
+  width: 100%;
+  border-radius: 15px;
+  background-color: #ffa000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  color: white;
+}
+
+.ASA-PS-input-container {
+  margin: 1rem 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.asa-ps-button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.asa-ps-type-button.btn {
+  /* margin: 0.5rem 0; */
+  width: 100%;
+  cursor: pointer;
+  height: 50px;
+  border: 1px solid orange;
+  color: black;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.asaps-selected-type-button.btn {
+  cursor: pointer;
+  width: 100%;
+  height: 50px;
+  border: 1px solid #3f2479;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3f2479;
+}
+.emergency-selected-type-button.btn {
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  border: 1px solid #3f2479;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3f2479;
+}
+
+.npo-time-type-selected-type-button.btn {
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  border: 1px solid #3f2479;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3f2479;
+}
+
+.ASA-PS-dropdown {
+  width: 300px;
+}
+
+.Surgery-type-header-container {
+  align-self: center;
+  width: 100%;
+  border-radius: 15px;
+  background-color: #ffa000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  color: white;
+}
+
+.Surgery-type-input-container {
+  margin: 1rem 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.Surgery-type-dropdown {
+  width: 300px;
+}
+
+.ANESTHESIA-type-header-container {
+  align-self: center;
+  width: 100%;
+  border-radius: 15px;
+  background-color: #ffa000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  color: white;
+}
+
+.ANESTHESIA-type-input-container {
+  margin: 1rem 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ANESTHESIA-type-dropdown {
+  width: 300px;
+}
+
+.medical-history-header-container {
+  margin-top: 2%;
+  align-self: center;
+  width: 100%;
+  border-radius: 15px;
+  background-color: #ffa000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  color: white;
+}
+
+.med-his {
+  margin: 0 auto;
+}
+
+.medical-history-main-container {
+  margin: 1rem auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.medical-history-question-header {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+.unansered-header {
+  color: orange;
+  margin-left: 20px;
+}
+
+.medical-history-question-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.medical-history-sub-question-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.medical-history-sub-question-counter-container {
+  margin-top: 20px;
+  width: 100%;
+  background-color: orange;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.medical-history-sub-question-sub-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.sub-question-container {
+  margin-top: 1.5%;
+  align-self: center;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid orange;
+}
+
+.option-box-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 15%;
+}
+
+.input-container-for-other {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.result-container {
+  width: 100%;
+  height: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.answer-container {
+  cursor: pointer;
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: rgba(255, 166, 0, 0.425) 1px solid;
+  padding: 5px;
+}
+.answer-container:hover {
+  background-color: rgba(255, 166, 0, 0.089);
+}
+.close-case-image {
+  width: 60px;
+  height: 60px;
+}
+
+.close-case-container {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.medications-header-container {
+  align-self: center;
+  width: 100%;
+  border-radius: 15px;
+  background-color: #ffa000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  color: white;
+}
+.medication-extra-type-container {
+  margin: 1rem 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.addType-btn {
+  cursor: pointer;
+  background-color: orange;
+  color: white;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  margin: 10px 5px;
+}
+.addTpe-btn i {
+  font-size: 22px;
+}
+.medication-input {
+  padding-left: 10px;
+  width: 31%;
+  border-radius: 12px;
+  font-size: medium;
+  outline: none;
+}
+
+.medications-input-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.medications-dropdown {
+  width: 300px;
+}
+
+.action-summary {
+  width: 70%;
+  height: 40px;
+  color: white;
+  background: linear-gradient(orange, rgb(240, 205, 140));
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+.preop-container {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 12px;
+  background-color: blue;
+}
+.gray-circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 12px;
+  background-color: gray;
+}
+
+.preop-container-subcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.action-summary-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.action-summary-list-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  border-bottom: 1px solid orange;
+}
+
+.casename-container {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.crises-button {
+  position: fixed;
+  right: 10rem;
+  bottom: 2rem;
+  /* margin-right: 20px;
+  margin-bottom: 20px; */
+  align-self: flex-end;
+  width: 80px;
+  cursor: pointer;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  border-radius: 40px;
+  zoom: 1;
+}
+.crises-button:hover {
+  animation: 1s infinite crisesanimation;
+}
+@keyframes crisesanimation {
+  from {
+    zoom: 1;
+    border: 1px solid gold;
+  }
+  to {
+    zoom: 1.17;
+    border: 1px solid gold;
+  }
+}
+.ant-text-input {
+  outline: 0px solid transparent;
+  border: 1px solid silver;
+  font-size: 16px;
+  padding: 7px;
+  width: 300px;
+  margin-left: 2rem;
+  border-radius: 5px;
+}
+.ant-container .ant-text-input {
+  width: 100%;
+  margin-left: 5%;
+}
+.btn.sub-nav {
+  height: 40px;
+  background: rgba(204, 200, 200, 0.822);
+  color: orange;
+}
+.btn.sub-nav a {
+  text-decoration: none;
+  color: orange;
+  border: none;
+}
+.btn.sub-nav.active a {
+  color: #fff;
+}
+.btn.sub-nav.active {
+  background: linear-gradient(#3f247980, pink);
+  z-index: 0;
+}
+.btn.sub-nav:hover a {
+  border: none;
+  color: #fff;
+}

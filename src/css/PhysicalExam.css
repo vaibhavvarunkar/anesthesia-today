@@ -1,0 +1,129 @@
+.physical-exam-main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* padding: 2%; */
+  }
+  
+  .physical-exam-question-container {
+    min-height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* justify-content: space-around; */
+  }
+  
+  .vital-signs-header-container {
+    align-self: center;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #ffa000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    color: white;
+  }
+  
+  .vital-signs-input-container {
+    align-self: center;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .vitalsign-next-button-container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .vitalsign-next-button {
+    cursor: pointer;
+    background-color: #3f2479;
+    color: white;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+  }
+  
+  .blood-pressure-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: min-content;
+    margin: 1rem 0;
+  }
+  
+  .blood-pressure-container-subcontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: space-between;
+    width: 100%;
+    align-self: left;
+    height: min-content;
+    margin: 1rem 0;
+    padding-bottom: 7px;
+    border-bottom: 1px solid rgb(245, 207, 137)
+  }
+  .input-container {
+    width: 40%;
+    font-size: medium;
+    padding: 0.5rem;
+    border-radius: 15px;
+    background-color: #f0f0f0;
+    border: none;
+    height: 40px;
+  }
+  
+  .central-iv-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+  
+  .central-iv-subcontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* margin: 0.1rem 0; */
+    justify-content: space-between;
+    width: 80%;
+    align-self: center;
+    margin: 0.5rem 0;
+  }
+  
+  .submit-physical {
+    margin-top: 3rem;
+    position: relative;
+    left: 45%;
+  }
+
+  .btn.skip-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    background-color: blue;
+    color: white;
+    margin: 0.5rem;
+  }
+  .dropdown-field {
+    width: 40%;
+  }

@@ -1,0 +1,10 @@
+.sub-anesthesia-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sub-anesthesia-div p {
+  margin: 1rem 0;
+  font-weight: bold;
+}

@@ -1,0 +1,71 @@
+.header{
+/* display: flex; */
+/* flex-direction: row; */
+width: 100%;
+/* align-items: center; */
+/* justify-content: space-around; */
+/* background-color: #4db6ac; */
+background-image: linear-gradient(40deg, pink, #3F2479 85%);
+/* height: 75px; */
+border-bottom:5px solid #3F2479;
+
+}
+
+
+.header-logo{
+width: 200px;
+}
+.logo{
+    width: 100%;
+    height: 80px;
+    
+}
+
+.search-text-input{
+    height: 40px;
+    padding: 10px;
+    border-top-left-radius: 12px !important;
+    border-bottom-left-radius: 12px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    outline:none;
+}
+
+.burger-menu{
+    font-size: 40px;
+    color: #fff;
+
+}
+.tab-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.tab-container a{
+    /* color: #cfd8dc; */
+    color:gold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    height:30px;
+    border:1px solid transparent;
+    padding:5px;
+}
+
+.tab-container a:hover{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+}
+.tab-container a.active-tab {
+    color: white;
+    border-bottom: 2px solid white;
+  }
+

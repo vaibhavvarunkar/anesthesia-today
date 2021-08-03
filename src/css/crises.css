@@ -1,0 +1,51 @@
+.crises-name {
+  margin: 1rem;
+  border: 2px solid black;
+  /* background-color: orangered; */
+  color: black;
+  font-size: 1.6rem;
+  padding: 0.2rem 0.7rem;
+  font-weight: 700;
+}
+
+.upper {
+  margin: 1rem auto;
+}
+
+.name {
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 700;
+}
+
+.name,
+.crises-name:hover {
+  list-style: none !important;
+  text-decoration: none !important;
+  color: Black !important;
+  cursor: text;
+}
+
+.subTypes {
+  margin: 2rem 10%;
+  cursor: pointer;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.crises-header {
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: rgb(81, 8, 163);
+  margin-bottom: 1rem;
+}
+
+.crises-header .arrow {
+  position: relative;
+  color: white;
+}
+
+.hidn {
+  visibility: hidden;
+}

@@ -1,0 +1,28 @@
+
+import React  from 'react';
+import store from "./redux/store";
+import { Provider } from "react-redux"
+import {
+  BrowserRouter,
+  Switch,
+  Route,
+} from "react-router-dom";
+import auth from './auth';
+
+
+ const ProtectedRoutes = ({component: Component, ...rest}) => {
+    return (
+  
+          <Route {...rest} render = {
+            (props) => {
+              if(auth.isAuthenticated()) {
+              return <Component {...props}/>
+              }
+            }
+          } />
+     
+
+  );
+}
+
+export default ProtectedRoutes();

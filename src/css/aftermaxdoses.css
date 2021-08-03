@@ -1,0 +1,74 @@
+.after-max-doses {
+  background-color: rgb(104, 154, 247);
+  min-height: 100vh;
+}
+
+.mixture-btn {
+  color: white;
+  font-weight: 700;
+  background-color: blue;
+  margin: 1rem;
+  outline: none;
+  padding: 0.5rem;
+  border: 2px solid white;
+}
+
+.mixture-btn:hover {
+  color: white;
+  text-decoration: none;
+  background-color: rgb(26, 103, 219);
+}
+
+.mixture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-btn {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.anesthasia-modal {
+  position: absolute;
+  height: 100%;
+  width: 90vw;
+}
+
+.mixDoseDiv {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ratio-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ratio-div input {
+  margin: 1rem;
+}
+
+.result-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.result-div h4 {
+  display: block !important;
+}

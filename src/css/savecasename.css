@@ -1,0 +1,51 @@
+.savecasemodal-container{
+    width: 100%;
+    min-height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;    
+}
+
+.save-case-name-input{
+    width: 90%;
+    /* height: 50px;
+    border: none; */
+
+}
+
+.close-without-saving-case-container{
+    cursor: pointer;
+    width: 150px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #888888;
+    color: white;
+    border-radius: 10px;
+}
+.cancel-button {
+  cursor: pointer;
+    width: 100px;
+    height: 40px;  
+    background-color: #888888;
+    color: white;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+} 
+.action-button-container {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+
+
+    
+    
+    

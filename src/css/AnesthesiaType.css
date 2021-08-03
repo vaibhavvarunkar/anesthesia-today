@@ -1,0 +1,64 @@
+.AnesthesiaType-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.AnesthesiaType-list-container {
+  width: 80%;
+  /* display: flex; */
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+}
+
+.AnesthesiaType-question-container {
+  width: 100%;
+  display: flex;
+  position: relative;
+  left: 15%;
+  margin: 1rem 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 0 auto;
+}
+
+.single-shot-or-continous-container {
+  width:50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+}
+
+.single-shot-or-continous-type-button {
+  cursor: pointer;
+  width: 80px;
+  height: 50px;
+  border: 1px solid #3f2479;
+  color: black;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* margin-right: 20px; */
+}
+
+.single-shot-or-continous-selected-type-button {
+  cursor: pointer;
+  width: 80px;
+  height: 50px;
+  border: 1px solid #3f2479;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* margin-right: 20px; */
+  background-color: #3f2479;
+}

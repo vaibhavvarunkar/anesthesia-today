@@ -1,0 +1,41 @@
+.max-doses-div {
+  background-color: rgb(104, 154, 247);
+  min-height: 100vh;
+}
+
+table {
+  height: 50vh;
+  margin: 0 auto;
+  width: 50vw;
+}
+
+table,
+th,
+td {
+  border: 3px white solid;
+  padding: 1rem;
+  border-top: none;
+}
+
+td {
+  color: white;
+  font-weight: 500;
+  font-size: large;
+}
+th h4 {
+  margin: 0 auto;
+  color: white;
+  /* margin-left: 4rem; */
+}
+
+table input {
+  border: none;
+  outline: none;
+  height: 80px;
+  width: 80px;
+  padding: 0.5rem;
+}
+
+input:hover {
+  outline: none;
+}

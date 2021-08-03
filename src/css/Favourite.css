@@ -1,0 +1,122 @@
+.favourite-container {
+  margin: 0 auto;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding-left: 5rem;
+  justify-content: center;
+}
+
+.favourite-add-more-btn {
+  justify-self: flex-end;
+  cursor: pointer;
+  background-color: orange;
+  font-size: 25px;
+  color: white;
+  /* width: 100px;
+  height: 40px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.favourite-list-container {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.save-button-container {
+  cursor: pointer;
+  background-color: #3f2479;
+  color: white;
+  width: 100px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  align-self: center;
+}
+.save-button-container:hover {
+  background-color: orange;
+  color:#FFF;
+}
+
+.circle {
+  margin-top: 6px;
+  width: 8px;
+  height: 8px;
+  line-height: 500px;
+  border-radius: 50%;
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  background: #000;
+}
+
+.favourite-default-list-container {
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.cancel-button-container {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px #888888;
+}
+/********************Added for css fixes*************************/
+.list-group-flush>.list-group-item {
+  border-width: 1px 0 1px;
+}
+.list-circle {
+  font-size:5px;
+  display:inline-block;
+  padding:3px;
+  background: #3e07b669;
+  border:1px dotted rgba(255, 166, 0, 0.63);
+  border-radius:50%;
+  margin-right:10px;
+}
+.check {
+  font-size:17px;
+  display:inline-block;
+  color: #4c0bda86;
+  border-radius:50%;
+  margin-right:10px;
+}
+.list-group-flush>.list-group-item ul >.list-group-item {
+  border-width: 0px;
+}
+.listName {
+  width:50%;
+  display:inline-block;
+}
+.cancel-list {
+  color:silver;
+  cursor:pointer;
+}
+.cancel-list:hover {
+  color:#555;
+}
+.card-header-custom {
+  border-top-right-radius: 3px;
+    padding: 1% 2%;
+    /* height: 3rem; */
+    height: 40px;
+    background: linear-gradient(orange, rgb(240, 205, 140));
+    color: #FFF;
+    border-top-left-radius: 3px;
+    border-bottom:2px solid #3F2479
+}

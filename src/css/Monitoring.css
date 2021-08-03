@@ -1,0 +1,40 @@
+.box-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.box-1 .category {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  background-color: skyblue;
+}
+
+.box-1 .selected-category {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  background-color: orange;
+}
+.sub-mon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 2rem 0;
+}
+
+.sub-mon .button {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 0.3rem 0.5rem;
+  background-color: skyblue;
+  cursor: pointer;
+}
+
+.sub-mon .selected-button {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 0.3rem 0.5rem;
+  background-color: orange;
+  cursor: pointer;
+}

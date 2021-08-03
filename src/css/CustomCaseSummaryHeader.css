@@ -1,0 +1,25 @@
+.custom-heade-case-summary {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 0;
+  background-color: whitesmoke;
+  align-items: center;
+  padding: 0.2rem 0;
+}
+
+.custom-heade-case-summary .sub-container {
+  display: flex;
+  align-items: stretch;
+}
+
+.custom-heade-case-summary .sub-container h5 {
+  margin: 0 1rem 0 0;
+  color: orange;
+  font-weight: 400;
+  font-size: large;
+}
+
+.custom-heade-case-summary .sub-container h5:hover {
+  color: black;
+  cursor: pointer;
+}
